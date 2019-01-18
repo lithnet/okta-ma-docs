@@ -8,18 +8,19 @@ Once the management agent has been installed, you may need to restart the FIM Sy
 ![](images/setup-1.png)
 
 ### Connectivity
-![](images/setup-2.png)
-
 | Setting | Description |
 | --- | --- |
 | Tenant URL | This is the URL of your Okta domain. Be sure that you DO NOT include the -admin suffix that appears when visiting the admin console of your tenant |
 | API key | Create an API key using the [guide provided by Okta](https://developer.okta.com/docs/api/getting_started/getting_a_token) |
 | Log file | Specify the path to a location where the log file will be created. Ensure that the FIM sync engine service account has access to write to this location |
 
-![](images/setup-3.png)
+![](images/setup-2.png)
 
 ### Global Parameters
 These settings control the behaviour of the management agent. 
+
+![](images/setup-3.png)
+
 #### Include built-in groups
 This will include groups that are built into Okta itself. These groups have a type of `BUILT_IN` within Okta itself.
 
