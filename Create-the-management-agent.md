@@ -16,7 +16,7 @@ Once the management agent has been installed, you may need to restart the FIM Sy
 | API key | Create an API key using the [guide provided by Okta](https://developer.okta.com/docs/api/getting_started/getting_a_token) |
 | Log file | Specify the path to a location where the log file will be created. Ensure that the FIM sync engine service account has access to write to this location |
 
-![](images/setup3-png)
+![](images/setup-3.png)
 
 ### Global Parameters
 These settings control the behaviour of the management agent. 
