@@ -1,11 +1,11 @@
-## Installing the management agent
+## Installing the OKTA management agent
 
-Download the latest version from the [releases](https://github.com/lithnet/okta-managementagent/releases/) and run the installer on the server that has the FIM synchronization service installed.
+Download the latest version from the [releases](https://github.com/lithnet/okta-managementagent/releases/) and run the installer on the server that has the FIM synchronization service installed.ls
 
 ### Create Management Agent
 Once the management agent has been installed, you may need to restart the FIM Synchronization Service Client application if you do not see the `Okta (Lithnet)` management agent type listed.
 
-![](images/setup-1.png)
+<img src="../images/setup-1.png" alt="delegation_warning" width="1000px">
 
 ### Connectivity
 | Setting | Description |
@@ -14,12 +14,12 @@ Once the management agent has been installed, you may need to restart the FIM Sy
 | API key | Create an API key using the [guide provided by Okta](https://developer.okta.com/docs/api/getting_started/getting_a_token) |
 | Log file | Specify the path to a location where the log file will be created. Ensure that the FIM sync engine service account has access to write to this location |
 
-![](images/setup-2.png)
+<img src="../images/setup-2.png" alt="delegation_warning" width="1000px">
 
 ### Global Parameters
 These settings control the behaviour of the management agent. 
 
-![](images/setup-3.png)
+<img src="../images/setup-3.png" alt="delegation_warning" width="1000px">
 
 #### Include built-in groups
 This will include groups that are built into Okta itself. These groups have a type of `BUILT_IN` within Okta itself.
@@ -45,7 +45,7 @@ Select the object types that you wish to manage. As API calls are expensive, don
 
 Do note, that the group object type is currently read-only.
 
-![](images/setup-4.png)
+<img src="../images/setup-4.png" alt="delegation_warning" width="1000px">
 
 ### Select Attributes 
 Select the attributes that you wish to manage. It is important to note that
