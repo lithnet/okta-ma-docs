@@ -10,9 +10,9 @@ The Lithnet Okta Management Agent provides support for managing Okta users with 
 
 It provides the ability to create, update, and delete okta-managed users, as well as manage certain attributes on AD-managed users. 
 
-
+########
 Features
-========
+########
 ------------
 
 
@@ -20,9 +20,9 @@ Features
 * Supports the import of groups
 * Supports the syncing of passwords to Okta
 
-
+###################
 System Requirements
-===================
+###################
 ------------
 
 

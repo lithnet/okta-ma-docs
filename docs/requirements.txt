@@ -1,2 +1,2 @@
-furo
-myst-parser
+furo==2021.7.31b41
+myst-parsermake
