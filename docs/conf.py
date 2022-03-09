@@ -30,7 +30,7 @@ author = 'Lithnet'
 extensions = ['myst_parser'
 ]
 
-myst_enable_extensions = ["html_image",]
+myst_enable_extensions = ["html_image","colon_fence","html_admonition",]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,9 +47,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'furo'
+html_theme = "furo"
 html_theme_options = {"sidebar_hide_name": True,}
-html_logo = 'images/transparent-access-manager-logo-no-border-512px.png'
+#html_logo = ''
 html_show_sourcelink = False
 html_show_copyright = False
 html_show_sphinx = False
@@ -58,3 +58,7 @@ html_show_sphinx = False
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/custom.css',
+]
